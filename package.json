@@ -1,0 +1,27 @@
+{
+  "name": "watchly",
+  "version": "0.1.2",
+  "description": "very simple object watcher using very simple events (evently)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtudury/watchly.git"
+  },
+  "keywords": [
+    "object",
+    "change",
+    "event",
+    "watch"
+  ],
+  "author": "david tudury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtudury/watchly/issues"
+  },
+  "dependencies": {
+    "evently": "~2.1.2"
+  }
+}
