@@ -1,5 +1,4 @@
 #watchly
-=======
 
 very simple object watcher using very simple events ([evently](https://github.com/dtudury/evently/))
 
