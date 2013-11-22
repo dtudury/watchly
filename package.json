@@ -1,6 +1,6 @@
 {
   "name": "watchly",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "very simple object watcher using very simple events (evently)",
   "main": "index.js",
   "scripts": {

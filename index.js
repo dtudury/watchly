@@ -1,4 +1,4 @@
-exports.Watcher = function (obj) {
+function Watcher(obj) {
 
 
     var self = this;
@@ -20,8 +20,11 @@ exports.Watcher = function (obj) {
     self.get = get;
 
 
-};
+}
 
 
-exports.Watcher.prototype = new (require('evently').dispatcher)();
-exports.watcher = exports.Watcher;
+Watcher.prototype = new (require('evently').Dispatcher)();
+
+
+exports.Watcher = Watcher;
+exports.static = new Watcher();
